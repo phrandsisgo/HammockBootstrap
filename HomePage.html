@@ -9,6 +9,29 @@
     <title>Hammock Home</title>
 
  <style>
+  /*luis anfang */
+  footer {
+          padding: 100px;
+          background-color: #274472;
+        }
+
+        .icon {
+            height: 5%;
+            width: 5%;
+            float: left;    
+            margin: 0 15px 0 0;
+        }
+
+       
+       
+        span {
+            color: #ffff;
+            font-size:medium;
+        }
+        /*luis ende */
+        .nav-pills {
+           background-color: #274472;
+        }
         .carousel-caption{
             position: absolute;
             top: 40%;
@@ -31,7 +54,26 @@
 
 </head>
 <body>
-    
+    <!--navbar by baris-->
+
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small  rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true"><a href="HomePage.html">Home</a></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="zimmer.html">Zimmer</a></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="AboutUs.html">Ueber uns</a></button>
+      </li>
+      <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="speisekarte.html">Speisekarte</a></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="Rezensionen3.html">Rezensionen</a></button>
+        </li>
+    </ul>
+    <!--navbar ende-->
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,66 +122,7 @@
 
 
   </div>
-  <!--h
-  <div class="container" id="Kalender">
-    <h3 class="text-center my-4">May 2023</h3>
-    <div class="row bg-primary text-white text-center">
-      <div class="col">Sun</div>
-      <div class="col">Mon</div>
-      <div class="col">Tue</div>
-      <div class="col">Wed</div>
-      <div class="col">Thu</div>
-      <div class="col">Fri</div>
-      <div class="col">Sat</div>
-    </div>
-    
-    <div class="row border border-top-0 text-center">
-      <div class="col border-end highlighter">1</div>
-      <div class="col border-end highlighter">2</div>
-      <div class="col border-end highlighter">3</div>
-      <div class="col border-end highlighter">4</div>
-      <div class="col border-end highlighter">5</div>
-      <div class="col border-end highlighter">6</div>
-      <div class="col highlighter">7</div>
-    </div>
-    <div class="row border border-top-0 text-center">
-      <div class="col border-end highlighter">7</div>
-      <div class="col border-end highlighter">8</div>
-      <div class="col border-end highlighter">9</div>
-      <div class="col border-end highlighter">9</div>
-      <div class="col border-end highlighter">10</div>
-      <div class="col border-end highlighter">11</div>
-      <div class="col highlighter">12</div>
-    </div>
-    <div class="row border border-top-0 text-center">
-      <div class="col border-end highlighter">13</div>
-      <div class="col border-end highlighter">14</div>
-      <div class="col border-end highlighter">15</div>
-      <div class="col border-end highlighter">16</div>
-      <div class="col border-end highlighter">17</div>
-      <div class="col border-end highlighter">18</div>
-      <div class="col highlighter">19</div>
-    </div>
-    <div class="row border border-top-0 text-center">
-      <div class="col border-end highlighter">20</div>
-      <div class="col border-end highlighter">21</div>
-      <div class="col border-end highlighter">22</div>
-      <div class="col border-end highlighter">23</div>
-      <div class="col border-end highlighter">24</div>
-      <div class="col border-end highlighter">25</div>
-      <div class="col highlighter">26</div>
-    </div>
-    <div class="row border border-top-0 text-center">
-      <div class="col border-end highlighter">27</div>
-      <div class="col border-end highlighter">28</div>
-      <div class="col border-end highlighter">29</div>
-      <div class="col border-end highlighter">30</div>
-      <div class="col border-end highlighter">31</div>
-      <div class="col border-end r highlighter">1</div>
-      <div class="col highlighter">2</div>
-    </div>
-    
-  </div>--->
+  
 
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-10 col-sm-8 col-lg-6"> <!--hier sollte der Kalender hinkommen-->
@@ -219,24 +202,38 @@
     </div>
   </div>
 
-  <!--hier fängt der Footer an der von Luis sein Sollte-->
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+   <!-- footer made by Luis :) -->
+
+   <footer class="helper d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                
+    <a href="/" class="helper col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="/Bilder/logo.svg" width="50px" height="50px" fill="currentColor">
+    </a>
   
-      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <img src="Bilder/logo.svg" alt="" height="50" width="50">
-      </a>
-  <div class="col-md-4"></div>
-      <p class="col-md-4 mb-0 text-muted"> 2022 Company, Inc</p>
+    
+    <div class="helper col-md-4 mb-0 text-muted">
+        <div class="helper">
+            <span class="helper">
+                <img src="/Bilder/location.svg" class="helper icon "> 
+            </span>
+            <span class="helper">
+            Räffelstrasse 12 8045, Zürich
+            </span>
+        </div>
+    </div>
 
+<!-- change the email icon color to white -->
 
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-      </ul>
-    </footer>
+    <div class="helper col-md-4 justify-content-end">
+            <span class="helper">
+                <img src="/Bilder/e-mail.svg" class="helper icon "> 
+            </span>
+            <span class="helper">
+                hammock@gmail.com
+            </span>
+        </div>
+    </div>
+    
+  </footer>
 </body>
 </html>
