@@ -18,73 +18,262 @@
     .spacer{
       width:30vh;
     }
+    #form{
+      width: 70vh;
+    }
+    #stern{
+      height: 20px;
+      width: 20px;
+    }
+    .card{
+      width:61vh;
+      margin:2px;
+    }
+    .col{
+      margin: 2px;
+      width: 100%;
+    }
+    .card-body{
+      width:100%;
+    }
+    .card-body{
+      width:100%;
+    }
+    .nav-pills {
+  background-color: #274472;
+}
+footer {
+          padding: 100px;
+          background-color: #274472;
+        }
+
+        .icon {
+            height: 5%;
+            width: 5%;
+            float: left;    
+            margin: 0 15px 0 0;
+        }
+
+       
+         
+
+        span {
+            color: #ffff;
+            font-size:medium;
+        }
+
   </style>
   <title>Document</title>
 </head>
 <body>
+  <ul class="nav nav-pills nav-fill gap-2 p-1 small  rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <a href="HomePage.html">
+
+      <button class="nav-link  rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Home</button>
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="zimmer.html">
+
+      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Zimmer</button>
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="AboutUs.html">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Über uns</button>
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="speisekarte.html">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Speisekarte</button>
+      </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a href="Rezensionen3.html">
+          <button class="nav-link active rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Rezensionen</button>
+        </a>
+      </li>
+  </ul>
   <h1>Rezensionen</h1>
-    <div class="card" style="width: 90hv;">
-      <div class="card-body">
-        <div class="d-flex p-3 RezessionsKarte text-dark">
-
-        <h2 class="card-title">Grace hallo</h2>
-          <div class="spacer"><p> </p></div>
-        <p>Mir gefiel der Aufenthalt in Hammock sehr, Freundliche Angestellte</p>
-        <button type="button" class="btn btn-primary">senden</button>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
+  <div class="card RezessionsKarte" style="width: 90vh;">
+    <div class="card-body">
+      <h5 class="card-title">Grace</h5>
+      <div class="d-flex">
+        <div class="spacer"><p> </p></div>
+        <img src="Bilder/Stern.svg" alt="stern" id="stern">
+        <img src="Bilder/Stern.svg" alt="stern" id="stern">
+        <img src="Bilder/Stern.svg" alt="stern" id="stern">
+        <img src="Bilder/Stern.svg" alt="stern" id="stern">
       </div>
+      <h6 class="card-subtitle mb-2 text-muted">1. April 2023</h6>
+      <p class="card-text">Mir gefiel der Aufenthalt in Hammock sehr, netter Service</p>
+    </div>
+  </div>
 
-      <!--das ist von Francisco-->
-
-      <div class="card RezessionsKarte" style="width: 80vh;">
+      <div class="card RezessionsKarte" style="width: 90vh;">
         <div class="card-body">
-          <h5 class="card-title">Emma</h5>
+          <h5 class="card-title">Maya</h5>
           <div class="d-flex">
-            <p>emma</p>
             <div class="spacer"><p> </p></div>
-            <p>sterne</p><svg class="bi bi-star"></svg>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+          
           </div>
-          <h6 class="card-subtitle mb-2 text-muted">1st May 23</h6>
+          <h6 class="card-subtitle mb-2 text-muted">3. April 2023</h6>
           <p class="card-text">Das Essen War super ich komme gerne wieder ist sehr empfehlenswert.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
         </div>
       </div>
 
-      <div class="">
-        <h2 class="card-subtitle mb-2 text-muted">Emma</h2>
-        <p class="card-text">Die Fitnessräume haben alle Geräte welche ich brauchte. Hervorragender Service.</p>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
-      </div>
-
-      <h2 class="card-title">Walter</h2>
-          <div class="spacer"><p> </p></div>
-        <p>Das Zimmer hatte einen schönen Blick zum Strand</p>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
-      
-      </div>
-        <h2 class="card-subtitle mb-2 text-muted">Ueli</h2>
-        <p class="card-text">Ich hatte einen kleinen Problem mit der Dusche, dies wurde aber sehr schnell vom Angestellten behoben.</p>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
+      <div class="card RezessionsKarte" style="width: 90vh;">
+        <div class="card-body">
+          <h5 class="card-title">Martina</h5>
+          <div class="d-flex">
+            <div class="spacer"><p> </p></div>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            
+          </div>
+          <h6 class="card-subtitle mb-2 text-muted">9. April 2023</h6>
+          <p class="card-text">Der Fitnessraum hatte alle Geräte die ich brauchte, hervorragender Service</p>
+        </div>
       </div>
     
-      <h2 class="card-title">Heidi</h2>
-          <div class="spacer"><p> </p></div>
-        <p>Der Pool war äusserst sauber und war ein wunderschöner Infinity Pool</p>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
+
+      <div class="card RezessionsKarte" style="width: 90vh;">
+        <div class="card-body">
+          <h5 class="card-title">Walter</h5>
+          <div class="d-flex">
+            <div class="spacer"><p> </p></div>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            
+          </div>
+          <h6 class="card-subtitle mb-2 text-muted">10. April 2023</h6>
+          <p class="card-text">Das Zimmer hatte einen wunderschönen Meerblick</p>
+        </div>
+      </div>
       
+      <div class="card RezessionsKarte" style="width: 90vh;">
+        <div class="card-body">
+          <h5 class="card-title">George</h5>
+          <div class="d-flex">
+            <div class="spacer"><p> </p></div>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            
+          </div>
+          <h6 class="card-subtitle mb-2 text-muted">19. April 2023</h6>
+          <p class="card-text">Ich hatte ein kleines Problem mit der Dusche, der wurde aber prompt behoben vom Hotelangestellten</p>
+         
+        </div>
       </div>
-        <h2 class="card-subtitle mb-2 text-muted">Peter</h2>
-        <p class="card-text">Sehr leckere Südamerikanische Küche</p>
-        <a href="#" class="card-link">Senden</a>
-        <a href="#" class="card-link">Bewerten</a>
+    
+      <div class="card RezessionsKarte" style="width: 90vh;">
+        <div class="card-body">
+          <h5 class="card-title">Ueli</h5>
+          <div class="d-flex">
+            <div class="spacer"><p> </p></div>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+          
+          </div>
+          <h6 class="card-subtitle mb-2 text-muted">20. April 2023</h6>
+          <p class="card-text">Wunderschöner Infinity Pool, ich war traurig, als ich abreisen musste ;)</p>
       </div>
-    </div> 
-  
+      </div>
+      
+      <div class="card RezessionsKarte" style="width: 90vh;">
+        <div class="card-body">
+          <h5 class="card-title">Bettina</h5>
+          <div class="d-flex">
+            <div class="spacer"><p> </p></div>
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+            <img src="Bilder/Stern.svg" alt="stern" id="stern">
+          
+          </div>
+          <h6 class="card-subtitle mb-2 text-muted">21. April 2023</h6>
+          <p class="card-text">Sehr leckere südamerikanische Gerichte</p>
+        </div>
+      </div>
+      <form id="form">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Peter Muster">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Wählen sie Anzahl Sterne</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Textfeld</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+      <button type="button" class="btn btn-primary">Senden</button>
+
+      <button type="button" class="btn btn-primary">Bewerten</button>
+      </form>
+      <footer class="helper d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                
+        <a href="/" class="helper col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <img src="/Bilder/logo.svg" width="50px" height="50px" fill="currentColor">
+        </a>
+      
+        
+        <div class="helper col-md-4 mb-0 text-muted">
+            <div class="helper">
+                <span class="helper">
+                    <img src="/Bilder/location.svg" class="helper icon "> 
+                </span>
+                <span class="helper">
+                Räffelstrasse 12 8045, Zürich
+                </span>
+            </div>
+        </div>
+    
+    <!-- change the email icon color to white -->
+
+        <div class="helper col-md-4 justify-content-end">
+                <span class="helper">
+                    <img src="/Bilder/e-mail.svg" class="helper icon "> 
+                </span>
+                <span class="">
+                    contact@hammock.com
+                </span>
+            </div>
+        </div>
+        
+      </footer>
+   
 </body>
 </html>
