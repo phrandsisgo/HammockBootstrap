@@ -8,51 +8,271 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
 
-    .headertitle {
-  color: white;
-  text-align: center;
-  font-size: 100px;
-  font-family: monomaniac;
+.par {
+  text-align: justify;
+  color:#274472
 }
+
+.btn {
+  background-color: #274472;
+  text-align: end;
+}
+
+.h1 {
+  color: #274472;
+  text-decoration: underline #274472 5px;
+}
+
+  .nav-pills {
+  background-color: #274472;
+}
+
+
   </style>
+  
 </head>
 <body>
 
-<div class="container-fluid p-5 bg-primary text-white text-center">
-    <div class="row">
-        <div class="col-sm-4">
-            <img src="logo.svg" class="rounded-circle" width="150x;">
+  <ul class="nav nav-pills nav-fill gap-2 p-1 small  rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+    <li class="nav-item" role="presentation">
+      <a href="HomePage.html">
+
+      <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="zimmer.html">
+
+      <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Zimmer</button>
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="AboutUs.html">
+        <button class="nav-link active rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Über uns</button>
+
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Zimmer</button>
+
+      </a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a href="speisekarte.html">
+        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Speisekarte</button>
+      </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a href="Rezensionen3.html">
+          <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Rezensionen</button>
+        </a>
+      </li>
+  </ul>
+
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold h1">Hammock Speisekarte</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4 par">Willkommen auf unserer köstlichen und internationalen Speisekarte. Wir haben die besten Gerichte und Getränke aus der chilenischen und brasilianischen Küche.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/Bilder/pastel2.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="1000" loading="lazy">
+      </div>
+    </div>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <br>
+      <br>
+      <br>
+      <br>
+      
+     
+
+    <h1 class="display-4 fw-bold h1">Vorspeisen</h1>
+    <div class="col-lg-4 mx-auto">
+    </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/Bilder/sopaipillas.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold lh-1 mb-3 h1">1. Sopaipillas mit Pebre</h2>
+        <p class="lead par">Sopaipillas con pebre ist ein wunderbares Rezept, das Aromen vereint, die sehr repräsentativ für die chilenische Küche sind. Es handelt sich um eine Art Frittüre aus einem Weizenmehlteig, der in Öl oder Schmalz frittiert wird. Die Pebre ist eine Soße aus Koriander, Zwiebeln, Knoblauch und grünem Chili, alles fein gehackt und mit Essig, Salz und Zitronensaft gewürzt.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$20.00 CHF</button>
         </div>
-
-        <div class="col-sm-4 header headertitle style="margin-top="100px;">
-        <h1>Speisekarte</h1>    
-        </div>
-    </div>  
-</div>
-  
-<div class="container mt-5">
-  <div class="row" style="margin-bottom: 70px;">
-    <div class="col-md-8">
-      
-    </div>
-
-    <div class="col-md-2">
-      
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-md-8">
-      
-    </div>
-
-    <div class="col-md-2">
-        
       </div>
     </div>
   </div>
-</div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/Bilder/ensalada.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold lh-1 mb-3 h1">2. Chilienische Salat</h2>
+        <p class="lead par">So nennt man in Chile den Salat, der mit Tomaten und Zwiebeln zubereitet wird. Der Name rührt daher, dass die Farben des Salats, rote Tomaten und weiße Zwiebeln, mit der chilenischen Flagge übereinstimmen. Für die Zubereitung wird die Zwiebel in dünne, federförmige Streifen und die Tomate in kleine Würfel oder Schalen ohne Schale geschnitten. Manchmal wird ein wenig fein gehackter Knoblauch hinzugefügt.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$20.00 CHF</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <br>
+      <br>
+      <br>
+      <br>
+      
+
+    <h1 class="display-4 fw-bold h1">Hauptgerichte</h1>
+    <div class="col-lg-4 mx-auto">
+    </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/Bilder/pastel.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold lh-1 mb-3 h1">1. Pastel de Choclo</h2>
+        <p class="lead par">Pastel de choclo ist ein südamerikanisches Gericht, das mit einer gebackenen Paste aus zarten Maiskörnern und "pino" zubereitet wird, einer Zubereitung mit Fleisch, Zwiebeln und anderen Zutaten (Gewürze wie Salz, Kreuzkümmel und aji de color, oder süßer Paprika), einer aus der Mapuche-Küche stammenden Mischung, mit der verschiedene Speisen begleitet werden.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$30.00 CHF</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="/Bilder/cazuela.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold lh-1 mb-3 h1">2. Poulet Cazuela</h2>
+        <p class="lead par">Die Kasserolle ist ein typisches Gericht in der chilenischen Gastronomie. Der Name kommt von der Art des Gefäßes, in dem es gekocht wird. Es handelt sich in der Regel um einen Topf mit niedrigem Boden und glasierter Innenseite. Als Wärmespeicher hat sie eine Doppelfunktion: Koch- und Tafelgeschirr; in der Küche wird sie vor allem für Gerichte verwendet, die im Ofen gebacken werden.  Der Cazuela ist ein typisch chilenisches Gericht, das aus Rindfleisch, Huhn, Pute, Gans oder Freilandhuhn und verschiedenen Gemüsesorten zubereitet wird: Kürbis, Mais, Kartoffeln. Manchmal wird auch Reis, Chuchoca oder anderes Gemüse hinzugefügt.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$30.00 CHF</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <h1 class="display-4 fw-bold h1">Getränke</h1>
+    <div class="col-lg-4 mx-auto">
+    </div>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/Bilder/pisco.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3 h1">1. Pisco Sour</h2>
+          <p class="lead par">Pisco Sour ist ein alkoholischer Cocktail peruanischechilenischen Ursprungs, der typisch für die peruanische und chilenische Küche ist. Der Name des Getränks kommt von Pisco, dem Basislikör, und dem Cocktailbegriff sour, der sich auf saure Zitrussäfte und Süßungsmittel bezieht.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$15.00 CHF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/Bilder/caipirinha.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3 h1">2. Caipirinha</h2>
+          <p class="lead par">Caipirinha ist der brasilianische Nationalcocktail, der aus Cachaça, Zucker und Limette hergestellt wird. Das Getränk wird zubereitet, indem man die Früchte und den Zucker miteinander vermischt und dann den Likör hinzufügt.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$15.00 CHF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/Bilder/batida.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3 h1">3. Batida</h2>
+          <p class="lead par">Batida ist ein weiteres interessantes brasilianisches Getränk, das aus dem Nationalcocktail, fruchtigen Aromen und Milch hergestellt wird. Das Getränk ist im Allgemeinen süß und wird mit Eis gemischt. Dieses Getränk ist auch in vielen anderen Ländern erhältlich, wird aber im Allgemeinen mit Wodka hergestellt. Die wichtigsten Fruchtaromen in diesem Getränk sind Passionsfrucht, Zitrone und Kokosnuss.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$15.00 CHF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/Bilder/casillero.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="500" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3 h1">4. Wein Casillero del Diablo</h2>
+          <p class="lead par">Casillero del Diablo ist eine wertorientierte Marke aus Chile, die zum Portfolio von Concha y Toro, dem größten Weinhersteller Lateinamerikas, gehört. Casillero del Diablo-Weine werden aus klassischen chilenischen Rebsorten wie Cabernet Sauvignon, Merlot und Carmenere hergestellt und sind auf dem Weltmarkt weit verbreitet.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">$25.00 CHF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            
+<!-- footer made by Luis :) -->
+
+<footer class="helper d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                
+  <a href="/" class="helper col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <img src="/Bilder/logo.svg" width="50px" height="50px" fill="currentColor">
+  </a>
+
+  
+  <div class="helper col-md-4 mb-0 text-muted">
+      <div class="helper">
+          <span class="helper">
+              <img src="/Bilder/location.svg" class="helper icon "> 
+          </span>
+          <span class="helper">
+          Räffelstrasse 12 8045, Zürich
+          </span>
+      </div>
+  </div>
+
+<!-- change the email icon color to white -->
+
+  <div class="helper col-md-4 justify-content-end">
+          <span class="helper">
+              <img src="/Bilder/e-mail.svg" class="helper icon "> 
+          </span>
+          <span class="helper">
+              contact@hammock.com
+          </span>
+      </div>
+  </div>
+  
+</footer>
+
+
+
+
 
 </body>
 </html>
