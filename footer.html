@@ -15,23 +15,36 @@
         <style>
         
         footer {
-          text-align: center;
           padding: 100px;
           background-color: #274472;
-          color: white;
         }
 
         .icon {
             height: 5%;
             width: 5%;
-            display: flex;
-            fill: #fff;
+            float: left;    
+            margin: 0 15px 0 0;
         }
+
+       
          
         .helper{
             box-sizing: border-box;
             border: 1px solid red;
         }
+
+        span {
+            color: #ffff;
+            font-size:medium;
+        }
+
+        id {
+            color: #ffff;
+            font-size:medium;
+        }
+
+
+
     
 
         
@@ -39,28 +52,38 @@
         </head>
         <body>
         
+<!-- footer made by Luis :) -->
+
             <footer class="helper d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 
                 <a href="/" class="helper col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                    <img src="/Bilder/logo.svg" width="50px" height="50px">
+                    <img src="/Bilder/logo.svg" width="50px" height="50px" fill="currentColor">
                 </a>
               
                 
                 <div class="helper col-md-4 mb-0 text-muted">
-                    <p class="helper">
-                        <span>
-                            <img src="/Bilder/location.svg" class="helper icon" > 
+                    <div class="helper">
+                        <span class="helper">
+                            <img src="/Bilder/location.svg" class="helper icon "> 
                         </span>
-                        Räffelstrasse 12> 8045, Zürich</p>
-                    
-
+                        <span class="helper">
+                        Räffelstrasse 12 8045, Zürich
+                        </span>
+                    </div>
                 </div>
             
-                
+            <!-- change the email icon color to white -->
+
                 <div class="helper col-md-4 justify-content-end">
-                    <img src="/Bilder/e-mail.svg" class="helper icon"> 
-                    <p class="helper">hammock@gmail.com</p>
+                        <span class="helper">
+                            <img src="/Bilder/e-mail.svg" class="helper icon "> 
+                        </span>
+                        <span class="helper">
+                            hammock@gmail.com
+                        </span>
+                    </div>
                 </div>
+                
               </footer>
         
         </body>
