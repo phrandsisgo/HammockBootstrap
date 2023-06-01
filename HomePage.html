@@ -21,7 +21,7 @@
       margin: 0 auto;
     }
     #Kalender{
-      width: 300px;
+      width: 400px;
     }
     </style>
 
@@ -29,43 +29,6 @@
 </head>
 <body>
     
-<div class="container">
-    <h2>Carousel Example</h2>  
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-  
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="Bilder/HotelZimmer.jpg" alt="Los Angeles" style="width:100%;">
-        </div>
-  
-        <div class="item">
-          <img src="Bilder/hotel1.jpg" alt="Chicago" style="width:100%;">
-        </div>
-      
-        <div class="item">
-          <img src="Bilder/StrandHotel.jpg" alt="New york" style="width:100%;">
-        </div>
-      </div>
-  
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-  
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,6 +76,69 @@
   </div>
 
 
+  </div>
+  <!--hier sollte der Kalender hinkommen-->
+  <div class="container" id="Kalender">
+    <h3 class="text-center my-4">May 2023</h3>
+    <div class="row bg-primary text-white text-center">
+      <div class="col">Sun</div>
+      <div class="col">Mon</div>
+      <div class="col">Tue</div>
+      <div class="col">Wed</div>
+      <div class="col">Thu</div>
+      <div class="col">Fri</div>
+      <div class="col">Sat</div>
+    </div>
+    
+    <div class="row border border-top-0 text-center">
+      <div class="col border-end highlighter">1</div>
+      <div class="col border-end highlighter">2</div>
+      <div class="col border-end highlighter">3</div>
+      <div class="col border-end highlighter">4</div>
+      <div class="col border-end highlighter">5</div>
+      <div class="col border-end highlighter">6</div>
+      <div class="col highlighter">7</div>
+    </div>
+    <div class="row border border-top-0 text-center">
+      <div class="col border-end highlighter">7</div>
+      <div class="col border-end highlighter">8</div>
+      <div class="col border-end highlighter">9</div>
+      <div class="col border-end highlighter">9</div>
+      <div class="col border-end highlighter">10</div>
+      <div class="col border-end highlighter">11</div>
+      <div class="col highlighter">12</div>
+    </div>
+    <div class="row border border-top-0 text-center">
+      <div class="col border-end highlighter">13</div>
+      <div class="col border-end highlighter">14</div>
+      <div class="col border-end highlighter">15</div>
+      <div class="col border-end highlighter">16</div>
+      <div class="col border-end highlighter">17</div>
+      <div class="col border-end highlighter">18</div>
+      <div class="col highlighter">19</div>
+    </div>
+    <div class="row border border-top-0 text-center">
+      <div class="col border-end highlighter">20</div>
+      <div class="col border-end highlighter">21</div>
+      <div class="col border-end highlighter">22</div>
+      <div class="col border-end highlighter">23</div>
+      <div class="col border-end highlighter">24</div>
+      <div class="col border-end highlighter">25</div>
+      <div class="col highlighter">26</div>
+    </div>
+    <div class="row border border-top-0 text-center">
+      <div class="col border-end highlighter">27</div>
+      <div class="col border-end highlighter">28</div>
+      <div class="col border-end highlighter">29</div>
+      <div class="col border-end highlighter">30</div>
+      <div class="col border-end highlighter">31</div>
+      <div class="col border-end r highlighter">1</div>
+      <div class="col highlighter">2</div>
+    </div>
+    
+  </div>
+
+
   <!--hier fängt der Footer an der von Luis sein Sollte-->
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -132,38 +158,5 @@
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
       </ul>
     </footer>
-  </div>
-  <!--hier sollte der Kalender hinkommen-->
-  <div class="container" id="Kalender">
-    <h3 class="text-center my-4">May 2023</h3>
-    <div class="row bg-primary text-white text-center">
-      <div class="col">Sun</div>
-      <div class="col">Mon</div>
-      <div class="col">Tue</div>
-      <div class="col">Wed</div>
-      <div class="col">Thu</div>
-      <div class="col">Fri</div>
-      <div class="col">Sat</div>
-    </div>
-    
-  <div class="row border border-top-0 text-center">
-    <div class="col border-end">1</div>
-    <div class="col border-end">2</div>
-    <div class="col border-end">3</div>
-    <div class="col border-end">4</div>
-    <div class="col border-end">5</div>
-    <div class="col border-end">6</div>
-    <div class="col">7</div>
-  </div>
-  <div class="row border border-top-0 text-center">
-    <div class="col border-end">7</div>
-    <div class="col border-end">8</div>
-    <div class="col border-end">9</div>
-    <div class="col border-end">9</div>
-    <div class="col border-end">10</div>
-    <div class="col border-end">11</div>
-    <div class="col ">12</div>
-  </div>
-  </div>
 </body>
 </html>
